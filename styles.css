@@ -1,0 +1,316 @@
+body{
+  background-color: #0F1014;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+.navbar{
+  padding:40px 60px 50px;
+  margin-bottom: 70px;
+}
+.navbar-brand{
+  color: #918CF2;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.navbar-brand:hover{
+  color: #918CF2;
+}
+.top-download-button{
+  font-weight: 500;
+}
+.title-section{
+  margin:40px 60px 50px;
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.title{
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.title-name{
+  color: #918CF2;
+}
+.sub-title{
+  color: grey;
+  font-weight: bold;
+}
+.title-button{
+  padding: 50px 100px 50px;
+}
+.main-download-button
+{
+  font-weight: 600;
+}
+.title-img{
+  width: 9%;
+}
+.used-by{
+  color: #58B99B;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+/* features */
+#features{
+    text-align: center;
+    margin:100px 60px 50px;
+}
+.features-title{
+  color: #58B99B;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.features-question{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.features-subtitle{
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 170px;
+}
+.row{
+  margin:100px 0 50px;
+
+}
+.feature-box{
+  text-align: center;
+}
+.feature-box-heading{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.feature-description{
+  color: grey;
+  font-weight: normal;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* @media (max-width:600px){
+  .title {
+      font-size: 24px;
+    }
+
+    .sub-title {
+      font-size: 16px;
+    }
+
+    .main-download-button {
+      font-size: 14px;
+    }
+
+    .title-img {
+      margin-bottom: 10px;
+    }
+
+    .used-by {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+} */
+/* Pricing */
+#pricing{
+  text-align: center;
+  margin:40px 60px 50px;
+  margin-top: 200px;
+}
+.pricing-main-title{
+  color: #58B99B;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.pricing-column{
+
+}
+.pricing-heading{
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.pricing-cost{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.pricing-details{
+  color: grey;
+  font-weight: normal;
+}
+.main-download-button-pricing{
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+
+/* testimonial */
+#testimonial{
+  margin:40px 60px 50px;
+  margin-top: 250px;
+}
+
+.testimonial-main-top{
+  text-align:center;
+}
+.testimonial-main-title-heading{
+   font-weight: bold;
+   margin-bottom: 30px;
+
+}
+.testimonial-main-title{
+  color: #58B99B;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.testimonial-main-title-description{
+  color: grey;
+  font-weight: normal;
+}
+.testimonial-name{
+   margin-top: 20px;
+   margin-bottom: 0;
+}
+.profile-image{
+  width: 11%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 13px;
+}
+.real-name{
+  font-weight: bold;
+  color: white;
+}
+.testimonial-postion{
+  color: grey;
+  font-weight: normal;
+}
+.testimonial-description{
+  color: white;
+  font-size: 1.02rem;
+  padding-left: 20px;
+}
+
+
+/* cta */
+#cta{
+  text-align: center;
+  background-color: #212529;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+#cta h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* FAQ */
+#faqid{
+  text-align: center;
+  padding:40px 60px 50px;
+  margin-bottom: 70px;
+}
+.faq-main-title{
+  color: #58B99B;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.description-faq{
+  color: grey;
+  font-weight: normal;
+  margin-bottom: 90px;
+  margin-top: 40px;
+}
+.faq {
+  margin-left: 24%;
+  margin-right: 24%;
+}
+.questionbox{
+  margin-bottom: 40px;
+  text-align: left;
+
+}
+.question:hover{
+  color: grey;
+}
+.question {
+  color:#fff;
+  font-weight: bolder;
+  opacity: .9;
+  display: block;
+  cursor: pointer;
+  font-size:1.2rem;
+}
+
+.answers {
+  height: 0;
+  overflow: hidden;
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  margin-top: 20px;
+  color: grey;
+  font-weight: 600;
+
+}
+.questions {
+  display: none;
+}
+
+
+
+/* FOOTER */
+#footer
+{
+  text-align: center;
+    padding: 7% 15%;
+    margin-bottom: 10rem;
+    margin-top: 200px;
+}
+.contact-links
+{
+  margin: 1rem 1.5rem 2rem;
+}
+.contact-links:hover
+{
+  cursor: pointer;
+
+}
+.copyright-line
+{
+  font-weight:300;
+}
+.copyright-line a{
+  text-decoration: none;
+}
+#footer .copyright-line a:hover{
+  color: #918CF2;
+}
+
+#footer a{
+  color: #fff;
+  padding:0;
+  margin: 0;
+}
+#footer .title-name{
+  margin-bottom: 60px;
+}
+#footer .privacy-terms{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#footer .privacy-terms:hover{
+  color: #918CF2;
+  cursor: pointer;
+}
+.privacystuff{
+  margin-bottom: 30px;
+}
