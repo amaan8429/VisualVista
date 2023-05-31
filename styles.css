@@ -21,8 +21,8 @@ body{
 .title-section{
   margin:40px 60px 50px;
   text-align: center;
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .title{
   font-size: 4rem;
@@ -37,7 +37,7 @@ body{
   font-weight: bold;
 }
 .title-button{
-  padding: 50px 100px 50px;
+  padding: 50px 15% 50px;
 }
 .main-download-button
 {
