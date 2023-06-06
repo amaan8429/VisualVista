@@ -1,231 +1,352 @@
-body{
+body {
+  padding-left: 6%;
+  padding-right: 6%;
   background-color: #0F1014;
   font-family: 'Inter', sans-serif;
   color: white;
 }
-.navbar{
-  padding:40px 60px 50px;
-  margin-bottom: 70px;
+
+.navbar {
+  margin-top: 40px;
 }
-.navbar-brand{
+
+.navbar-brand {
   color: #918CF2;
   font-weight: bold;
   font-size: 1.6rem;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
   color: #918CF2;
 }
-.top-download-button{
+
+.top-download-button {
   font-weight: 500;
 }
-.title-section{
-  margin:40px 60px 50px;
+
+#title-section {
   text-align: center;
+  margin-top: 100px;
   padding-left: 10%;
   padding-right: 10%;
 }
-.title{
+
+.title {
   font-size: 4rem;
   font-weight: bolder;
   margin-bottom: 30px;
 }
-.title-name{
-  color: #918CF2;
-}
-.sub-title{
+
+.sub-title {
   color: grey;
   font-weight: bold;
 }
-.title-button{
+
+.title-name {
+  color: #918CF2;
+}
+
+.title-button {
   padding: 50px 15% 50px;
 }
-.main-download-button
-{
+
+.main-download-button {
   font-weight: 600;
 }
-.title-img{
+
+.title-img {
   width: 9%;
 }
-.used-by{
+
+.used-by {
   color: #58B99B;
   font-size: 0.8rem;
   font-weight: bold;
 }
-/* features */
-#features{
-    text-align: center;
-    margin:100px 60px 50px;
+
+@media (max-width:600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .title-img {
+    width: 18%;
+  }
 }
-.features-title{
+
+#features {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.features-title {
   color: #58B99B;
   font-size: 1.4rem;
   font-weight: bold;
+  margin-top: 180px;
+  margin-bottom: 60px;
 }
-.features-question{
+
+.features-question {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 35px;
 }
-.features-subtitle{
+
+.features-subtitle {
   color: grey;
   font-weight: bold;
-  margin-bottom: 170px;
 }
-.row{
-  margin:100px 0 50px;
 
-}
-.feature-box{
+.feature-box {
   text-align: center;
+  margin-top: 160px;
 }
-.feature-box-heading{
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-weight: bold;
+
+.feature-box-heading {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.feature-description{
+
+.feature-description {
   color: grey;
   font-weight: normal;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-/* @media (max-width:600px){
-  .title {
-      font-size: 24px;
-    }
 
-    .sub-title {
-      font-size: 16px;
-    }
+@media (max-width:600px) {
+  .features-question {
+    font-size: 2rem;
+  }
 
-    .main-download-button {
-      font-size: 14px;
-    }
+  .feature-description {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
 
-    .title-img {
-      margin-bottom: 10px;
-    }
+  .features-subtitle {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
 
-    .used-by {
-      font-size: 12px;
-      margin-top: 10px;
-    }
-} */
-/* Pricing */
-#pricing{
+#pricing {
   text-align: center;
-  margin:40px 60px 50px;
-  margin-top: 200px;
+  margin-bottom: 300px;
 }
-.pricing-main-title{
+
+.pricing-main-title {
   color: #58B99B;
   font-size: 1.4rem;
   font-weight: bold;
+  margin-bottom: 60px;
 }
-.pricing-column{
 
+.pricing-2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 35px;
 }
-.pricing-heading{
-  font-weight: bolder;
-  font-size: 2rem;
-}
-.pricing-cost{
-  font-weight: bolder;
-  margin-bottom: 20px;
-}
-.pricing-details{
+
+.pricing-3 {
   color: grey;
-  font-weight: normal;
-}
-.main-download-button-pricing{
-  margin-top: 20px;
-  font-weight: 600;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
 
+.pricing-column {
+  text-align: left;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
+.z1 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
 
-/* testimonial */
+.z2 {
+  font-weight: bold;
+}
+
+.z3 {
+  color: grey;
+  font-weight: bold;
+}
+
+.z1 h6 {
+  margin-bottom: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.z1 h2 {
+  margin-bottom: 1.3rem;
+  font-weight: bold;
+}
+
+#pricing .card-body {
+  margin: 2rem;
+  padding: 0;
+}
+
+.x1 {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.main-download-button-pricing {
+  width: 80%;
+  border-radius: 2rem;
+}
+
+@media (max-width:600px) {
+  .pricing-column {
+    margin-bottom: 3rem;
+  }
+
+  .pricing-2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:922px) {
+  .pricing-column {
+    margin-bottom: 3rem;
+  }
+}
+
 #testimonial{
-  margin:40px 60px 50px;
-  margin-top: 250px;
-}
-
-.testimonial-main-top{
-  text-align:center;
-}
-.testimonial-main-title-heading{
-   font-weight: bold;
-   margin-bottom: 30px;
-
+  text-align: center;
+  margin-bottom: 150px;
 }
 .testimonial-main-title{
   color: #58B99B;
   font-size: 1.4rem;
   font-weight: bold;
+  margin-bottom: 60px;
 }
+
+.testimonial-main-title-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
 .testimonial-main-title-description{
   color: grey;
-  font-weight: normal;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
-.testimonial-name{
-   margin-top: 20px;
-   margin-bottom: 0;
+
+.testimonial-detail{
+  padding: 1.3rem;
 }
+
+
+.d3{
+  text-align: left;
+}
+
 .profile-image{
-  width: 11%;
+  width: 12%;
   float: left;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: 13px;
+  margin-right: 1rem;
 }
 .real-name{
   font-weight: bold;
   color: white;
+  margin-bottom: 0;
+  font-size: 0.95rem;
 }
 .testimonial-postion{
   color: grey;
-  font-weight: normal;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 .testimonial-description{
+  text-align: left;
   color: white;
-  font-size: 1.02rem;
-  padding-left: 20px;
+  font-size: 0.98rem;
+  margin-bottom: 0;
+}
+@media (max-width:600px) {
+  .d1{
+    margin-bottom: 2rem;
+  }
 }
 
+@media (max-width:922px) {
+  .d1{
+    margin-bottom: 2rem;
+  }
+  .profile-image{
+    width: 9.5%;
+  }
+}
 
-/* cta */
 #cta{
   text-align: center;
   background-color: #212529;
-  margin-top: 150px;
-  margin-bottom: 150px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  margin-bottom: 300px;
+  border-radius: 1.5rem;
+
 }
-#cta h1{
-  font-size: 3rem;
-  font-weight: bold;
+.c2{
+  border-radius: 1.5rem;
+  display: inline-block;
 }
 
-/* FAQ */
+.c1 h3{
+  font-size: 3rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+.c2{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 100px;
+  font-size: 1.5rem;
+}
+
+@media (max-width:600px) {
+  .c1 h3{
+    font-size: 2rem;
+  }
+  .c2{
+      font-size: 1.3rem;
+  }
+}
+
+
+
 #faqid{
   text-align: center;
-  padding:40px 60px 50px;
-  margin-bottom: 70px;
+  margin-bottom: 300px;
 }
 .faq-main-title{
   color: #58B99B;
-  font-size: 1.4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+#faqid h2{
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .description-faq{
   color: grey;
-  font-weight: normal;
-  margin-bottom: 90px;
-  margin-top: 40px;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
+.description-faq a{
+    text-decoration: none;
+}
+
 .faq {
   margin-left: 24%;
   margin-right: 24%;
@@ -264,15 +385,26 @@ body{
   display: none;
 }
 
+#faqid a{
+  color: white;
+}
+#faqid a:hover{
+  color:#918CF2 ;
+}
 
 
-/* FOOTER */
+@media (max-width:600px) {
+  .faq {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+}
+
+
 #footer
 {
   text-align: center;
-    padding: 7% 15%;
     margin-bottom: 10rem;
-    margin-top: 200px;
 }
 .contact-links
 {
@@ -313,4 +445,7 @@ body{
 }
 .privacystuff{
   margin-bottom: 30px;
+}
+#footer .copyright-line a{
+  color: #918CF2;
 }
